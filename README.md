@@ -6,17 +6,23 @@
 
 ตรวจสอบว่าคุณมี Node.js ติดตั้งในเครื่องของคุณแล้ว ในการติดตั้ง dependencies ที่จำเป็นใช้, ให้ใช้คำสั่ง:
 
-```npm i nodejs-line-notify```
+```
+  npm i nodejs-line-notify
+```
 
 ## การใช้งาน
 
 ### นำเข้าโมดูล
 
-```const LineNotify = require('nodejs-line-notify');``` 
+```
+  const LineNotify = require('nodejs-line-notify');
+``` 
 
 ### สร้างอินสแตนซ์
 
-```const lineNotify = new LineNotify('YOUR_LINE_NOTIFY_TOKEN');``` 
+```
+  const lineNotify = new LineNotify('YOUR_LINE_NOTIFY_TOKEN');
+``` 
 
 แทน `'YOUR_LINE_NOTIFY_TOKEN'` ด้วย token จริงที่คุณได้รับจาก LINE Notify.
 
