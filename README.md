@@ -23,41 +23,20 @@
 ### ตรวจสอบสถานะ
 
 ``` 
-lineNotify.checkStatus()
-  .then((status) => {
-    console.log('สถานะ Line Notify:', status);
-  })
-  .catch((error) => {
-    console.error('เกิดข้อผิดพลาดในการตรวจสอบสถานะ Line Notify:', error);
-  });
+checkStatus()
 ```
 
 ### ส่งข้อความ
 
 ```const message = 'สวัสดี LINE Notify!';
-lineNotify.sendMessage(message)
-  .then((response) => {
-    console.log('ส่งข้อความสำเร็จ:', response);
-  })
-  .catch((error) => {
-    console.error('เกิดข้อผิดพลาดในการส่งข้อความ:', error);
-  });
+sendMessage(message)
  ``` 
 
 ### ส่งไฟล์ (รูปภาพ)
 
 ```const message = 'มาดูรูปภาพนี้!';
-const imagePath = 'path/to/your/image.jpg';
-lineNotify.sendFile(message, imagePath)
-  .then((response) => {
-    console.log('ส่งไฟล์สำเร็จ:', response);
-  })
-  .catch((error) => {
-    console.error('เกิดข้อผิดพลาดในการส่งไฟล์:', error);
-  });
+sendFile(message, imagePath)
   ``` 
-
-แทน `'path/to/your/image.jpg'` ด้วยที่อยู่จริงของไฟล์รูปภาพที่คุณต้องการส่ง.
 
 ## หมายเหตุ
 
