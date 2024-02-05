@@ -1,6 +1,6 @@
 {
   "name": "nodejs-line-notify",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Node.js module for sending notifications to Line Messenger using Line Notify API.",
   "main": "index.js",
   "scripts": {
