@@ -1,13 +1,19 @@
 {
   "name": "nodejs-line-notify",
   "version": "1.0.9",
-  "description": "A Node.js module for sending notifications to Line Messenger using Line Notify API.",
+  "description": "โมดูลนี้ให้บริการการจัดการ LINE Notify API ใน Node.js อย่างง่าย ๆ ทำให้คุณสามารถส่งข้อความและไฟล์ไปยัง LINE Notify ได้โดยง่าย",
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll --coverage",
     "dev": "nodemon app.js"
   },
-  "keywords": [],
+  "keywords": [
+    "LINE",
+    "LINE Notify",
+    "notification",
+    "Node.js",
+    "JavaScript"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
