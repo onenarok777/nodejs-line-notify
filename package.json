@@ -1,6 +1,6 @@
 {
   "name": "nodejs-line-notify",
-  "version": "1.0.12",
+  "version": "1.0.11",
   "description": "โมดูลนี้ให้บริการการจัดการ LINE Notify API ใน Node.js อย่างง่าย ๆ ทำให้คุณสามารถส่งข้อความและไฟล์ไปยัง LINE Notify ได้โดยง่าย",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,8 @@
     "Node.js",
     "JavaScript"
   ],
-  "publishConfig": {
-    "registry": "https://github.com/onenarok777/nodejs-line-notify.git"
-  },
+  
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.2"
