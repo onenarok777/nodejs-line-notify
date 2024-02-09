@@ -14,6 +14,9 @@
     "Node.js",
     "JavaScript"
   ],
+  "publishConfig": {
+    "registry": "https://github.com/onenarok777/nodejs-line-notify.git"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
